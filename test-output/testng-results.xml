@@ -1,105 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="11" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-15T03:02:56 IST" name="Suite" finished-at="2024-10-15T03:02:56 IST" duration-ms="52">
+  <suite started-at="2024-11-05T05:12:39 IST" name="Default suite" finished-at="2024-11-05T05:12:39 IST" duration-ms="598">
     <groups>
     </groups>
-    <test started-at="2024-10-15T03:02:56 IST" name="Car Loan" finished-at="2024-10-15T03:02:56 IST" duration-ms="44">
-      <class name="test.Requisite">
-        <test-method is-config="true" signature="prerequisiteSuite()[pri:0, instance:test.Requisite@55634720]" started-at="2024-10-15T03:02:56 IST" name="prerequisiteSuite" finished-at="2024-10-15T03:02:56 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisiteSuite -->
-        <test-method is-config="true" signature="postRequisiteSuite()[pri:0, instance:test.Requisite@55634720]" started-at="2024-10-15T03:02:56 IST" name="postRequisiteSuite" finished-at="2024-10-15T03:02:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postRequisiteSuite -->
-      </class> <!-- test.Requisite -->
-      <class name="test.Day03">
-        <test-method signature="mobileLoginCarLoan(java.lang.String)[pri:0, instance:test.Day03@6c1a5b54]" started-at="2024-10-15T03:02:56 IST" name="mobileLoginCarLoan" finished-at="2024-10-15T03:02:56 IST" duration-ms="8" status="PASS">
+    <test started-at="2024-11-05T05:12:39 IST" name="Default test" finished-at="2024-11-05T05:12:39 IST" duration-ms="598">
+      <class name="test.dataDriven">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.dataDriven@1c9b0314]" started-at="2024-11-05T05:12:39 IST" name="test" data-provider="driveTest" finished-at="2024-11-05T05:12:39 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[www.carloan.in]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginCarLoan -->
-        <test-method signature="apiLoginCarLoan(java.lang.String)[pri:0, instance:test.Day03@6c1a5b54]" started-at="2024-10-15T03:02:56 IST" name="apiLoginCarLoan" finished-at="2024-10-15T03:02:56 IST" depends-on-methods="test.Day03.mobileLoginCarLoan" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hjavkackabwckabwckaKJBKBClkcnavcmckjb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apiLoginCarLoan -->
-      </class> <!-- test.Day03 -->
-    </test> <!-- Car Loan -->
-    <test started-at="2024-10-15T03:02:56 IST" name="Personal Loan" finished-at="2024-10-15T03:02:56 IST" duration-ms="52">
-      <class name="test.Requisite">
-        <test-method is-config="true" signature="prerequisite()[pri:0, instance:test.Requisite@55634720]" started-at="2024-10-15T03:02:56 IST" name="prerequisite" finished-at="2024-10-15T03:02:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequisite -->
-        <test-method is-config="true" signature="postRequisite()[pri:0, instance:test.Requisite@55634720]" started-at="2024-10-15T03:02:56 IST" name="postRequisite" finished-at="2024-10-15T03:02:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postRequisite -->
-      </class> <!-- test.Requisite -->
-      <class name="test.Day01">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Day01@23c30a20]" started-at="2024-10-15T03:02:56 IST" name="beforeClass" finished-at="2024-10-15T03:02:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="Demo()[pri:0, instance:test.Day01@23c30a20]" started-at="2024-10-15T03:02:56 IST" name="Demo" finished-at="2024-10-15T03:02:56 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method signature="mobileLoginHelicopterLoan()[pri:0, instance:test.Day01@23c30a20]" started-at="2024-10-15T03:02:56 IST" name="mobileLoginHelicopterLoan" finished-at="2024-10-15T03:02:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginHelicopterLoan -->
-        <test-method signature="urlCheck(java.lang.String,java.lang.String)[pri:0, instance:test.Day01@23c30a20]" started-at="2024-10-15T03:02:56 IST" name="urlCheck" finished-at="2024-10-15T03:02:56 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[www.amazon.in]]>
+                <![CDATA[akhtarsameer743@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[hjavkackabwckabwckaKJBKBClkcnavcmckjb]]>
+                <![CDATA[kuchBhi00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RandomText001]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- urlCheck -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Day01@23c30a20]" started-at="2024-10-15T03:02:56 IST" name="afterClass" finished-at="2024-10-15T03:02:56 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.dataDriven@1c9b0314]" started-at="2024-11-05T05:12:39 IST" name="test" data-provider="driveTest" finished-at="2024-11-05T05:12:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sameerakhtar1513@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kuchBhi01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RandomText002]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- test.Day01 -->
-      <class name="test.Day02">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.Day02@27462a88]" started-at="2024-10-15T03:02:56 IST" name="beforeMethod" finished-at="2024-10-15T03:02:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="first()[pri:0, instance:test.Day02@27462a88]" started-at="2024-10-15T03:02:56 IST" name="first" finished-at="2024-10-15T03:02:56 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- first -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.Day02@27462a88]" started-at="2024-10-15T03:02:56 IST" name="afterMethod" finished-at="2024-10-15T03:02:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- test.Day02 -->
-    </test> <!-- Personal Loan -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- test.dataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
